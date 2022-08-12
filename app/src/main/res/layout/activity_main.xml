@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c1c1c1"
+    tools:context=".MainActivity">
+
+
+    <!-- FIRST LINE -->
+    <Button
+        android:id="@+id/batalla2"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="batalla"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/batallaCelta"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="Bat.Celta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/batallaLarga"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="BAT.lARGA"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/bluebird"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="bluebird"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+
+
+
+    <!-- SECOND LINE -->
+    <Button
+        android:id="@+id/campamento"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="CAMPamento"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/cascada"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="cascada"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/mercado"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="mercado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/codec"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="codec"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+
+    <!-- THIRD LINE -->
+    <Button
+        android:id="@+id/cueva"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="cueva"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1899" />
+
+    <Button
+        android:id="@+id/flecha"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="flecha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1899" />
+
+    <Button
+        android:id="@+id/intro"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="**INTRO**"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1899" />
+
+    <Button
+       android:id="@+id/flechas"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="flechas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1899" />
+
+
+    <!-- FOURTH LINE -->
+    <Button
+        android:id="@+id/metalGear"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="metal gear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <Button
+        android:id="@+id/musicaCaballos"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="musica caballos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <Button
+        android:id="@+id/vacio"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281"/>
+
+    <Button
+        android:id="@+id/necropolis"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="necropolis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <!-- FIFTH LINE -->
+    <Button
+        android:id="@+id/peligroso"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="peligroso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <Button
+        android:id="@+id/pillada"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="pillada"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <Button
+        android:id="@+id/sableLaser"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="sable Laser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371"/>
+
+    <Button
+        android:id="@+id/starWars"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="STAR     WARS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371" />
+
+
+    <!-- SIXTH LINE -->
+    <Button
+        android:id="@+id/taberna"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="taberna"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <Button
+        android:id="@+id/tranquilidad"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="tranqis"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <Button
+        android:id="@+id/vikingos"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="vikingos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"/>
+
+    <Button
+        android:id="@+id/yiraiya"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="yiraiya"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+
+    <!-- SEVENTH LINE -->
+    <Button
+        android:id="@+id/castlevania"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="castlevania"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <Button
+        android:id="@+id/vampBar"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="vamp       bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552"/>
+
+    <Button
+        android:id="@+id/ffBattle"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="pelea ff7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552"/>
+
+    <Button
+        android:id="@+id/ffBoss"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="boss FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+
+    <!-- EIGTH LINE -->
+    <Button
+        android:id="@+id/ffWorld"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="Mundo FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <Button
+        android:id="@+id/edadOscura"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="Edad oscura"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643"/>
+
+    <Button
+        android:id="@+id/musicaOscura"
+        android:layout_width="90dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="musica oscura"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <Button
+        android:id="@+id/oscuridad"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="oscuridad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+
+
+    <!-- NINETH LINE -->
+    <Button
+        android:id="@+id/but33"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="butt1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <Button
+        android:id="@+id/bot34"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="butt2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <Button
+        android:id="@+id/but35"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="butt3"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734"/>
+
+    <Button
+        android:id="@+id/but36"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="butt4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+
+
+    <!-- TENTH LINE -->
+    <Button
+        android:id="@+id/but37"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="butt1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <Button
+        android:id="@+id/bot38"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="butt2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+    <Button
+        android:id="@+id/but39"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="butt3"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825"/>
+
+    <Button
+        android:id="@+id/but40"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="butt4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+
+
+
+    <!-- ELEVENTH LINE -->
+    <Button
+        android:id="@+id/but41"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="butt1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915" />
+
+    <Button
+        android:id="@+id/bot42"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="butt2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915" />
+
+    <Button
+        android:id="@+id/but43"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="butt3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.66"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915"/>
+
+    <Button
+        android:id="@+id/but44"
+        android:layout_width="85dp"
+        android:layout_height="55dp"
+        android:background="@drawable/shapes"
+        android:text="butt4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915" />
+
+
+    <!-- EXIT BUTTON -->
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#EE2424"
+        android:backgroundTint="#F10B0B"
+        android:text="EXIT"
+        android:textColor="#F4F0F0"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
